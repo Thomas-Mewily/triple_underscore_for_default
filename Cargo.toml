@@ -10,5 +10,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0 OR MPL-2.0"
 readme = "README.md"
 documentation = "https://docs.rs/default_is_triple_underscore"
+homepage = "https://github.com/Thomas-Mewily/triple_underscore_for_default"
+repository  = "https://github.com/Thomas-Mewily/triple_underscore_for_default"
 
 [dependencies]
