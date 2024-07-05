@@ -26,10 +26,10 @@
 /// assert_eq!(a, b);
 /// ```
 /// 
-/// Can also be used to initialize complexe Rust struct when implementing the `Default` trait :
+/// Can also be used to initialize complex Rust struct when implementing the `Default` trait :
 /// 
 /// ```
-/// impl Default for ComplexeStruct {
+/// impl Default for ComplexStruct {
 ///     fn default() -> Self { 
 ///     Self { a : ___(), b : ___(), c : ___(), vec : vec![0] }
 ///         //  instead of
