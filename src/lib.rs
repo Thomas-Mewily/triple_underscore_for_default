@@ -62,3 +62,10 @@ pub trait DefaultIsTripleUnderscore : Default
     /// ```
     fn ___() -> Self { Self::default() }
 }
+
+impl<T:Default> DefaultIsTripleUnderscore for T
+{
+    fn ___() -> Self {
+        Self::default()
+    }
+}
